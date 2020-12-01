@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript 2 Project Template</title>
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+  <h1>Hello World!</h1>
+  <formulario class="formulario" id="formulario">
+      <div>
+        <label for="nombre" id="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"required>
+        <label for="correo" id="correo">Correo</label>
+        <input type="text" name="correo" id="correo"required>
+        <label for="telefono" id="telefono">Telefono</label>
+        <input type="text" name="telefono" id="telefono">
+        <label for="base" id="base">Asunto</label>
+        <input type="text" name="base" id="base"required>
+        <label for="mensaje" id="mensaje">Mensaje</label>
+        <input type="text" name="mensaje" id="mensaje"required>
+        <button type="enviar" id="btn-1" onclick="formulariooculto()">enviar</button> 
+      </div>
+  </formulario>
+  <div>
+      <ul id="listaformulario" class="listaformularios"></ul>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html
